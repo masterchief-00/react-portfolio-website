@@ -75,3 +75,18 @@ header {
         display: none;
     }
 }
+
+/*====================MEDIA QUERIES(STUBBORN SMALL DEVICES)==================*/
+@media screen and (max-width:375px) {
+    header{
+        height: 128vh;
+    }
+    .header__socials,.scroll__down{
+        display: none;
+    }
+    .me{
+        width: 18rem;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
